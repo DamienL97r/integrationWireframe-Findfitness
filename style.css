@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Oswald;
+}
+
+/*BOUTON PRINCIPAL*/
+
+.btn-main {
+    text-decoration: none;
+    text-align: center;
+    background-color: #f6751f;
+    padding: 10px 25px;
+    border-radius: 35px;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-main:hover {
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 35px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #f6751f;
+    transition: all 0.5s ease-out;
+}
+
+
+
+
+
+/*NAVBAR START*/
+
+header{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+header > nav > a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+}
+
+
+
+/*NAVBAR END*/
+
+/*HEADING START*/
+
+.container-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.activities {
+    width: 80%;
+    text-align: center;
+}
+
+.search-activities {
+    display: flex;
+    justify-content: center;
+}
+
+.big-title{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.container-heading > .activities > p {
+    width: 350px;
+    margin: 20px 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.activities > .search-activities > select {
+    width: 160px;
+    margin-right: 35px;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0 10px 0 0;
+    border-radius: 50px;
+}
+
+.search-container > input {
+    width: 100px;
+    margin-right: 35px;
+    padding: 0px 10px;
+    border: none;
+    background-color: rgba(255, 127, 80, 0);
+}
+
+.search-container > input:focus{
+    outline: none;
+}
+
+.search-container > img {
+    height: 18px;
+}
+/*HEADING END*/
+
+/*CONTAINER CARROUSEL START*/
+
+.container-carrousel{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.card:hover {
+    opacity: 0.7;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+.card-bis {
+    margin-top: 30px;
+}
+/*CONTAINER CARROUSEL END*/
+
+/*CONTAINER HORIZONTAL CARD START*/
+
+.heading-orange{
+    text-align: center;
+    margin: 0 20%;
+}
+
+.heading-orange > h3 {
+    color: #f6751f;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.container-horizontal-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5% 8%;
+}
+
+.horizontal-card{
+    border: 2px solid #4444442b;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    padding: 20px;
+}
+
+.horizontal-card > .text-content > h4 {
+    margin-bottom: 5px;
+}
+
+.horizontal-card > img {
+    width: 100px;
+    height: fit-content;
+    margin-right: 20px;
+}
+
+/*CONTAINER HORIZONTAL CARD END*/
+
+/*CONTAINER CARD ACTIVITES START*/
+
+.container-card-activities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card-activities {
+    margin: 10px;
+    width: 270px;
+    text-align: center;
+    border: 2px solid #4444442b;
+}
+
+.card-activities:hover {
+    margin: 10px;
+    width: 270px;
+    text-align: center;
+    color: white;
+    background-color: #f6751f;
+    border: 2px solid #000000;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+.card-activities > img {
+    margin: 20px 0;
+    width: 50%;
+}
+
+.card-activities > h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-activities > p{
+    font-size: 0.9rem;
+    padding: 15px;
+}
+
+/*CONTAINER CARD ACTIVITES END*/
+
+/*CONTAINER TRAINING START*/
+
+.container-training{
+    display: flex;
+    align-items: center;
+    margin: 50px 0 250px 0;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.container-training > .img{
+    width: 60%;
+    
+}
+
+.container-training > .img > img {
+    width: 250px;
+    height: fit-content;
+}
+
+#imgCoach1{
+    position: absolute;
+    left: 220px;
+    top: 0px;
+}
+
+#imgCoach2{
+    position: absolute;
+    left: 600px;
+    top: 0px;
+}
+
+#imgCoach3{
+    position: absolute;
+    left: 400px;
+    top: 65px;
+}
+
+.heading-orange-training{
+    width: 400px;
+    text-align: left;
+    
+}
+
+.heading-orange-training > h3 {
+    color: #f6751f;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.heading-orange-training > p {
+    margin-bottom: 70px;
+}
+
+/*CONTAINER TRAINING END*/
+
+
+/*TESTIMONIALS CONTAINER START*/
+
+.testimonials-container{
+    margin: 40px 0 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+.testimonial-card {
+    width: 33%;
+}
+
+.testimonial-author{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-top: 30px;
+}
+
+.testimonial-author > img {
+    height: 70px;
+}
+
+.author{
+    font-size: 1.3rem;
+    margin-left: 50px;
+}
+
+/*TESTIMONIALS CONTAINER END*/
+
+
+/*FOOTER START*/
+
+footer {
+    height: 280px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/footer\ 1.png);
+    position: relative;
+}
+
+.footer-content {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    padding: 0 80px;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 150px;
+}
+
+.informations{
+    display: flex;
+}
+
+.informations > p {
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 35px;
+}
+
+.social-icon > img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+/*FOOTER END*/
